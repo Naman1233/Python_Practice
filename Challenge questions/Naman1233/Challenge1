@@ -1,0 +1,10 @@
+def function(s):
+  s_list = s.split()
+  ans = ""
+  for i in s_list:
+    ans += i.capitalize()
+  return ans
+  
+s1 = "Abc def geh ijk kalmalalal"
+print(function(s1))
+#ans = "AbcDefGehIjkKalmalalal"
